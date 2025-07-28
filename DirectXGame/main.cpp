@@ -8,7 +8,7 @@ using namespace KamataEngine;
 int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 
 	// エンジンの初期化
-	KamataEngine::Initialize(L"LE3C_11_サクライ_ショウセイ_CG4");
+	KamataEngine::Initialize(L"LE3C_11_サクライ_ショウセイ_TL1");
 
 	// DirectXCommonインスタンスの取得
 	DirectXCommon* dxCommon = DirectXCommon::GetInstance();
