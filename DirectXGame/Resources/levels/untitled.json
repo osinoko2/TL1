@@ -7,8 +7,8 @@
             "transform": {
                 "translation": [
                     0.0,
-                    -6.854987144470215,
-                    10.351086616516113
+                    5.041613578796387,
+                    0.0
                 ],
                 "rotation": [
                     0.0,
@@ -21,6 +21,7 @@
                     1.0
                 ]
             },
+            "disabled": true,
             "file_name": "cube"
         },
         {
@@ -67,10 +68,10 @@
         },
         {
             "type": "MESH",
-            "name": "立方体",
+            "name": "ICO球",
             "transform": {
                 "translation": [
-                    0.0,
+                    -5.307656764984131,
                     0.0,
                     0.0
                 ],
@@ -85,16 +86,17 @@
                     1.0
                 ]
             },
+            "disabled": false,
             "file_name": "cube"
         },
         {
             "type": "MESH",
-            "name": "立方体.001",
+            "name": "ICO球.001",
             "transform": {
                 "translation": [
-                    -11.920660972595215,
                     0.0,
-                    -2.6067118644714355
+                    -5.599681377410889,
+                    3.609454393386841
                 ],
                 "rotation": [
                     0.0,
@@ -107,16 +109,17 @@
                     1.0
                 ]
             },
+            "disabled": false,
             "file_name": "cube"
         },
         {
             "type": "MESH",
-            "name": "立方体.002",
+            "name": "ICO球.002",
             "transform": {
                 "translation": [
-                    9.12823486328125,
-                    17.552141189575195,
-                    0.0
+                    5.039958953857422,
+                    0.0,
+                    -3.181610107421875
                 ],
                 "rotation": [
                     0.0,
@@ -129,6 +132,7 @@
                     1.0
                 ]
             },
+            "disabled": false,
             "file_name": "cube"
         }
     ]

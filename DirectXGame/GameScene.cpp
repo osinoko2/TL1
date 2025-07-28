@@ -50,6 +50,15 @@ void GameScene::Initialize() {
 	for (nlohmann::json& object : deserialized["objects"]) {
 		assert(object.contains("type"));
 
+		if (object.contains("disabled")) {
+			// 有効無効フラグ
+			bool disabled = object["disabled"].get<bool>();
+			if (disabled) {
+				// 配置しない(スキップ)
+				continue;
+			}
+		}
+
 		// 種別を取得
 		std::string type = object["type"].get<std::string>();
 
